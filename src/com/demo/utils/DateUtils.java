@@ -9,4 +9,9 @@ public class DateUtils {
 	private static Date getLocalCurrentDate(){
 		return new Date();
 	}
+	@SuppressWarnings("deprecation")
+	private static void getLocalCurrentDateMonth() {
+		System.out.println(new Date().getMonth());
+	}
 }
+
